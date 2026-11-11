@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 100px auto;
+    gap: 200px;
+}
+.one, .two, .three, .four{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+.div{
+    margin-bottom: 30px;
+}

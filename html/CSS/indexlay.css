@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 5px solid blue;
+}
+.header{
+    /* border-bottom: 4px solid blue; */
+    /* display: grid; */
+    text-align: center;
+}
+.links{
+    /* border-right: 4px solid blue; */
+    /* border-bottom: 4px solid blue; */
+    padding: 12px;
+}
+.main{
+    /* border-bottom: 4px solid blue; */
+    padding: 12px;
+}
+.footer{
+    /* display: grid; */
+    text-align: center;
+}

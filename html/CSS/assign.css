@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div {
+    display: inline-block;
+    width: 80%;
+    margin: 100px auto;
+    margin: auto;
+    height: 500px;
+    background-color: lightblue;
+    margin: 10px;
+} */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 70%;
+    height: 70%;
+    /* background-color: black; */
+    background-image: url("../../IMAGE/Wallpaper.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 0%;
+}
+section{
+    /* background-color: #fff; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+}
+.first{
+    /* background-color: rgba(0, 0, 255, 0.329); */
+    background-image: url("../../IMAGE/9255ece37945a4076db1a52537f96c21.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.second{
+    /* background-color: rgb(255, 0, 0, 0.329); */
+    background-image: url("../../IMAGE/WhatsApp\ Image\ 2026-10-01\ at\ 7.59.00\ AM.jpeg");
+      background-position: center;
+    background-size: contain;
+}
+.third{
+    /* background-color: rgb(102, 51, 153, 0.329); */
+    background-image: url("../../IMAGE/Screenshot\ 2026-08-16\ 233222.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+.fourth{
+    /* background-color: rgb(255, 165, 0, 0.329); */
+    background-image: url("../../IMAGE/Wallpaper.jpeg");
+    background-position: center;
+    background-size: contain;
+}
+.fifth{
+    /* background-color: rgb(107, 142, 35, 0.329); */
+    background-image: url("../../IMAGE/Screenshot\ 2026-09-29\ 192209.png");
+    background-position: center;
+    background-size: contain;
+}

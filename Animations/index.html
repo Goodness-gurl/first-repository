@@ -1,0 +1,160 @@
+!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #0c133f;
+        padding: 5%;
+      }
+      section {
+        text-align: center;
+      }
+      button {
+        margin-top: 5%;
+        padding: 8px;
+        border-radius: 50px;
+        background-color: #142151;
+        color: #fffdf5;
+      }
+      .textdiv {
+        margin-top: 2%;
+        font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+      }
+      strong {
+        font-size: 200%;
+        color: #fffdf5;
+      }
+      h1 {
+        color: #fffdf5;
+      }
+      .textp {
+        color: #fffdf5;
+      }
+      .divbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* gap: 20px; */
+        text-align: left;
+        row-gap: 50px;
+        column-gap: 20px;
+      }
+      .box {
+        background-color: #0c1947;
+        width: 100%;
+        height: 140px;
+        line-height: 25px;
+        border: 1px solid #293963;
+        border-radius: 25px;
+        padding: 25px;
+        color: #afb4c4;
+        margin-bottom: 20px;
+      }
+      .box h1 {
+        font-size: 120%;
+      }
+      .box p {
+        /* font-size: 13px; */
+
+        font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25.2px;
+        color: rgba(255, 255, 255, 0.72);
+      }
+      /* .box:first-child {
+        background-color: pink;
+      }
+      .box:last-child{
+        background-color: red;
+      } */
+      .box:nth-child(1):first-child {
+        background-color: red;
+      }
+        @media (max-width: 768px) {
+            .divbox{
+                /* grid-template-columns: 1fr; */
+                display: block;
+                 /* width: 1000px; */
+                 /* margin: 0 auto; */
+                 /* padding: 30px;   */
+            }
+        } 
+        @media (max-width: 320px) {
+            .box{
+                color: white;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment -->
+    <section>
+      <button>What "+ AI" Means at SQI</button>
+      <main class="textdiv">
+        <strong>This Is Not a Marketing Label — It's a New</strong>
+        <h1>Curriculum</h1>
+      </main>
+      <main>
+        <p class="textp">
+          Every SQI course has been updated to include AI tools and AI-assisted
+          workflows. Here's
+        </p>
+        <p class="textp">exactly what that means for you.</p>
+      </main>
+
+      <div>
+        <div class="divbox">
+          <div class="box">
+            <h1>Core principles first</h1>
+            <p>
+              Master the fundamentals before AI tools are introduced, ensuring
+              you understand the concepts behind what you're building.
+            </p>
+          </div>
+          <div class="box">
+            <h1>AI tools to accelerate work</h1>
+            <p>
+              Learn to use ChatGPT, GitHub Copilot, Midjourney and other AI
+              tools to work significantly faster and smarter.
+            </p>
+          </div>
+          <div class="box">
+            <h1>AI-assisted workflows</h1>
+            <p>
+              Every course integrates AI into real workflows— debugging, UI
+              design, data analysis, documentation and reporting.
+            </p>
+          </div>
+        </div>
+
+        <div class="divbox">
+          <div class="box">
+            <h1>Prompt Engineering</h1>
+            <p>
+              Learn how to communicate effectively with AI to generate better
+              code, content, designs and solutions
+            </p>
+          </div>
+          <div class="box">
+            <h1>Build AI-enhanced projects</h1>
+            <p>
+              Graduate with portfolio projects that combine you technical skills
+              with practical AI applications.
+            </p>
+          </div>
+          <div class="box">
+            <h1>Compete in the AI Economy</h1>
+            <p>
+              Build the confidence and skills employers expect,preparing you for
+              an AI-powered workplace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
